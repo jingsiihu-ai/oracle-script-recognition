@@ -10,14 +10,9 @@ The project packages the reusable engineering components around a detector/recog
 
 ## Pipeline
 
-```mermaid
-flowchart LR
-    A[Inscription image] --> B[Contrast and binarization]
-    B --> C[Detector adapter]
-    C --> D[NMS and character crops]
-    D --> E[Recognition adapter]
-    E --> F[Metrics and predictions]
-```
+<p align="center">
+  <img src="docs/assets/method_overview.svg" alt="Oracle script recognition pipeline from rubbing preprocessing and detection through crop recognition, translation, and evaluation" width="100%" />
+</p>
 
 ## What is included
 
