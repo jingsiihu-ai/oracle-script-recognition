@@ -10,6 +10,9 @@ The project packages the reusable engineering components around a detector/recog
 
 ## Pipeline
 
+<p align="center">
+  <img src="docs/assets/method_overview.jpg" alt="Oracle script recognition and translation pipeline" width="100%" />
+</p>
 
 ## What is included
 
